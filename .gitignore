@@ -2,3 +2,7 @@
 01_打包样式资源/node_modules/
 
 02_打包html资源/node_modules/
+
+03_打包图片资源/node_modules/
+
+04_打包其他资源/node_modules/

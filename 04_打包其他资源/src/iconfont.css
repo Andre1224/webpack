@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1628958032657') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-black-plane:before {
+  content: "\e614";
+}
+
+.icon-budget:before {
+  content: "\e615";
+}
+
+.icon-close-button:before {
+  content: "\e616";
+}
+
+.icon-coffee-cup:before {
+  content: "\e617";
+}
+
+#title{
+  color: pink !important;
+}
