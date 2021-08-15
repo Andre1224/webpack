@@ -1,0 +1,8 @@
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: #0e94eb;
+    background-image: url("../imgs/wallpaper.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

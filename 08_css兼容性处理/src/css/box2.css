@@ -1,0 +1,8 @@
+#box2{
+    width: 200px;
+    height: 200px;
+    background-color: #6c1872;
+    background-image: url("../imgs/plief.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
