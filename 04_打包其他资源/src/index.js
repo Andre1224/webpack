@@ -1,4 +1,4 @@
 // 引入iconfont文件
 import './iconfont.css'
 
-console.log(3)
+console.log(4)

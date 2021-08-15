@@ -1,5 +1,6 @@
 const { resolve } = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 module.exports = {
     entry: './src/index.js',
@@ -13,27 +14,23 @@ module.exports = {
             {
                 // 匹配哪些文件
                 test: /\.css$/,
-                // 使用哪些loader进行处理
-                use: [
-                    // use数组中loader执行顺序：从右到左，从下到上，依次执行
-                    'style-loader',// 创建style标签，将js中的样式资源插入进行，添加到head中生效
-                    'css-loader' // 将css文件编译commonjs模块加载js中，里面内容是样式字符串
-                ]
+                use: ['style-loader','css-loader']
             },
             {
-                exclude: '/\.(css|js|html)$/',
-                loader: 'file-loader'
-            }
+                exclude: /\.(css|js|html)$/,
+                loader: 'file-loader',
+                options: {
+                    esModule: false // 字体文件需要使用commonjs
+                },
+                type: 'javascript/auto' // 语言类型自适应，禁用es6自动调整为commonjs
+            },
         ]
     },
     plugins: [
-        // plugins配置
-        // html-webpack-plugin
-        // 功能：默认创建一个空的html，自动引入打包输出所有资源(js/css)
-        // 需求：需要有结构的html文件
         new HtmlWebpackPlugin({
-            template: './src/index.html' // 复制'./src/index.html'文件并自动引入打包输出的所有资源(js/css)
-        })
+            template: './src/index.html'
+        }),
+        new CleanWebpackPlugin()
     ],
     mode: 'development'
-}
+};
