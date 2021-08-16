@@ -1,0 +1,9 @@
+{
+  "name": "jquery",
+  "content": {
+    "../node_modules/jquery/dist/jquery.js": {
+      "id": 638,
+      "buildMeta": {}
+    }
+  }
+}
