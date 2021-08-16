@@ -32,19 +32,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="10.17.60" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/5_webpack5使用/webpack5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitKarken\repo\webpack\5_webpack5使用\webpack5" />
       <recent name="D:\GitKarken\repo\webpack" />
       <recent name="D:\GitKarken\repo\webpack\04_打包其他资源\src" />
       <recent name="D:\GitKarken\repo\webpack\03_打包图片资源\src\imgs" />
       <recent name="D:\GitKarken\repo\webpack\03_打包图片资源" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitKarken\repo\webpack\5_webpack5使用\webpack5\src" />
       <recent name="D:\GitKarken\repo\webpack\18_cache\src" />
     </key>
   </component>
@@ -60,6 +63,7 @@
       <workItem from="1628952914915" duration="169000" />
       <workItem from="1628953106477" duration="7050000" />
       <workItem from="1629040764025" duration="4224000" />
+      <workItem from="1629125127050" duration="3933000" />
     </task>
     <servers />
   </component>
