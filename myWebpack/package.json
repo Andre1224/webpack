@@ -1,0 +1,15 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "node ./script/build.js",
+    "debug": "node --inspect-brk ./script/build.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
